@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		120EA9D841DEA9BB9BC9FD35 /* Pods_Islom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7EC40AB197224E20F0F5B5 /* Pods_Islom.framework */; };
+		D0BB460228CF1EAA005BB178 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BB460128CF1EAA005BB178 /* AppDelegate.swift */; };
+		D0BB460B28CF1EAB005BB178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0BB460A28CF1EAB005BB178 /* Assets.xcassets */; };
+		D0BB460E28CF1EAB005BB178 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0BB460C28CF1EAB005BB178 /* LaunchScreen.storyboard */; };
+		D0BB461928CF1EAB005BB178 /* IslomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BB461828CF1EAB005BB178 /* IslomTests.swift */; };
+		D0BB462328CF1EAB005BB178 /* IslomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BB462228CF1EAB005BB178 /* IslomUITests.swift */; };
+		D0BB462528CF1EAB005BB178 /* IslomUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BB462428CF1EAB005BB178 /* IslomUITestsLaunchTests.swift */; };
+		D0BB463228CF1F21005BB178 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BB463128CF1F21005BB178 /* MainVC.swift */; };
+		D0BB463428CF1F69005BB178 /* CharacterTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BB463328CF1F69005BB178 /* CharacterTVC.swift */; };
+		D0BB463628CF25C3005BB178 /* CharacterDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BB463528CF25C3005BB178 /* CharacterDM.swift */; };
+		D0BB463928CF3505005BB178 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BB463728CF3505005BB178 /* TableViewCell.swift */; };
+		D0BB463A28CF3505005BB178 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0BB463828CF3505005BB178 /* TableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0BB461528CF1EAB005BB178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0BB45F628CF1EAA005BB178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0BB45FD28CF1EAA005BB178;
+			remoteInfo = Islom;
+		};
+		D0BB461F28CF1EAB005BB178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0BB45F628CF1EAA005BB178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0BB45FD28CF1EAA005BB178;
+			remoteInfo = Islom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B1BD085017B74978B7E1CEB /* Pods-Islom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Islom.debug.xcconfig"; path = "Target Support Files/Pods-Islom/Pods-Islom.debug.xcconfig"; sourceTree = "<group>"; };
+		1A7EC40AB197224E20F0F5B5 /* Pods_Islom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Islom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0BB45FE28CF1EAA005BB178 /* Islom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Islom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0BB460128CF1EAA005BB178 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0BB460A28CF1EAB005BB178 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0BB460D28CF1EAB005BB178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0BB460F28CF1EAB005BB178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0BB461428CF1EAB005BB178 /* IslomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IslomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0BB461828CF1EAB005BB178 /* IslomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslomTests.swift; sourceTree = "<group>"; };
+		D0BB461E28CF1EAB005BB178 /* IslomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IslomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0BB462228CF1EAB005BB178 /* IslomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslomUITests.swift; sourceTree = "<group>"; };
+		D0BB462428CF1EAB005BB178 /* IslomUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslomUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D0BB463128CF1F21005BB178 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		D0BB463328CF1F69005BB178 /* CharacterTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTVC.swift; sourceTree = "<group>"; };
+		D0BB463528CF25C3005BB178 /* CharacterDM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDM.swift; sourceTree = "<group>"; };
+		D0BB463728CF3505005BB178 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		D0BB463828CF3505005BB178 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		F4A8AEE1001407599DD88C8A /* Pods-Islom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Islom.release.xcconfig"; path = "Target Support Files/Pods-Islom/Pods-Islom.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0BB45FB28CF1EAA005BB178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				120EA9D841DEA9BB9BC9FD35 /* Pods_Islom.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BB461128CF1EAB005BB178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BB461B28CF1EAB005BB178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FD52DBA1AAE77315AAD701A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A7EC40AB197224E20F0F5B5 /* Pods_Islom.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0BB45F528CF1EAA005BB178 = {
+			isa = PBXGroup;
+			children = (
+				D0BB460028CF1EAA005BB178 /* Islom */,
+				D0BB461728CF1EAB005BB178 /* IslomTests */,
+				D0BB462128CF1EAB005BB178 /* IslomUITests */,
+				D0BB45FF28CF1EAA005BB178 /* Products */,
+				E57030EDAF6C9E110BF6D9C1 /* Pods */,
+				6FD52DBA1AAE77315AAD701A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D0BB45FF28CF1EAA005BB178 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0BB45FE28CF1EAA005BB178 /* Islom.app */,
+				D0BB461428CF1EAB005BB178 /* IslomTests.xctest */,
+				D0BB461E28CF1EAB005BB178 /* IslomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0BB460028CF1EAA005BB178 /* Islom */ = {
+			isa = PBXGroup;
+			children = (
+				D0BB460128CF1EAA005BB178 /* AppDelegate.swift */,
+				D0BB460A28CF1EAB005BB178 /* Assets.xcassets */,
+				D0BB460C28CF1EAB005BB178 /* LaunchScreen.storyboard */,
+				D0BB460F28CF1EAB005BB178 /* Info.plist */,
+				D0BB463128CF1F21005BB178 /* MainVC.swift */,
+				D0BB463328CF1F69005BB178 /* CharacterTVC.swift */,
+				D0BB463528CF25C3005BB178 /* CharacterDM.swift */,
+				D0BB463728CF3505005BB178 /* TableViewCell.swift */,
+				D0BB463828CF3505005BB178 /* TableViewCell.xib */,
+			);
+			path = Islom;
+			sourceTree = "<group>";
+		};
+		D0BB461728CF1EAB005BB178 /* IslomTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0BB461828CF1EAB005BB178 /* IslomTests.swift */,
+			);
+			path = IslomTests;
+			sourceTree = "<group>";
+		};
+		D0BB462128CF1EAB005BB178 /* IslomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0BB462228CF1EAB005BB178 /* IslomUITests.swift */,
+				D0BB462428CF1EAB005BB178 /* IslomUITestsLaunchTests.swift */,
+			);
+			path = IslomUITests;
+			sourceTree = "<group>";
+		};
+		E57030EDAF6C9E110BF6D9C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B1BD085017B74978B7E1CEB /* Pods-Islom.debug.xcconfig */,
+				F4A8AEE1001407599DD88C8A /* Pods-Islom.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0BB45FD28CF1EAA005BB178 /* Islom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0BB462828CF1EAB005BB178 /* Build configuration list for PBXNativeTarget "Islom" */;
+			buildPhases = (
+				8A99937DB6C1D0F876AA07F3 /* [CP] Check Pods Manifest.lock */,
+				D0BB45FA28CF1EAA005BB178 /* Sources */,
+				D0BB45FB28CF1EAA005BB178 /* Frameworks */,
+				D0BB45FC28CF1EAA005BB178 /* Resources */,
+				DF1F6C7735857563489CAB5A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Islom;
+			productName = Islom;
+			productReference = D0BB45FE28CF1EAA005BB178 /* Islom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0BB461328CF1EAB005BB178 /* IslomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0BB462B28CF1EAB005BB178 /* Build configuration list for PBXNativeTarget "IslomTests" */;
+			buildPhases = (
+				D0BB461028CF1EAB005BB178 /* Sources */,
+				D0BB461128CF1EAB005BB178 /* Frameworks */,
+				D0BB461228CF1EAB005BB178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0BB461628CF1EAB005BB178 /* PBXTargetDependency */,
+			);
+			name = IslomTests;
+			productName = IslomTests;
+			productReference = D0BB461428CF1EAB005BB178 /* IslomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0BB461D28CF1EAB005BB178 /* IslomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0BB462E28CF1EAB005BB178 /* Build configuration list for PBXNativeTarget "IslomUITests" */;
+			buildPhases = (
+				D0BB461A28CF1EAB005BB178 /* Sources */,
+				D0BB461B28CF1EAB005BB178 /* Frameworks */,
+				D0BB461C28CF1EAB005BB178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0BB462028CF1EAB005BB178 /* PBXTargetDependency */,
+			);
+			name = IslomUITests;
+			productName = IslomUITests;
+			productReference = D0BB461E28CF1EAB005BB178 /* IslomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0BB45F628CF1EAA005BB178 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D0BB45FD28CF1EAA005BB178 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					D0BB461328CF1EAB005BB178 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D0BB45FD28CF1EAA005BB178;
+					};
+					D0BB461D28CF1EAB005BB178 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D0BB45FD28CF1EAA005BB178;
+					};
+				};
+			};
+			buildConfigurationList = D0BB45F928CF1EAA005BB178 /* Build configuration list for PBXProject "Islom" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0BB45F528CF1EAA005BB178;
+			productRefGroup = D0BB45FF28CF1EAA005BB178 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0BB45FD28CF1EAA005BB178 /* Islom */,
+				D0BB461328CF1EAB005BB178 /* IslomTests */,
+				D0BB461D28CF1EAB005BB178 /* IslomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0BB45FC28CF1EAA005BB178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BB460E28CF1EAB005BB178 /* LaunchScreen.storyboard in Resources */,
+				D0BB463A28CF3505005BB178 /* TableViewCell.xib in Resources */,
+				D0BB460B28CF1EAB005BB178 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BB461228CF1EAB005BB178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BB461C28CF1EAB005BB178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8A99937DB6C1D0F876AA07F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Islom-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF1F6C7735857563489CAB5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Islom/Pods-Islom-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Islom/Pods-Islom-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Islom/Pods-Islom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0BB45FA28CF1EAA005BB178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BB463928CF3505005BB178 /* TableViewCell.swift in Sources */,
+				D0BB460228CF1EAA005BB178 /* AppDelegate.swift in Sources */,
+				D0BB463428CF1F69005BB178 /* CharacterTVC.swift in Sources */,
+				D0BB463628CF25C3005BB178 /* CharacterDM.swift in Sources */,
+				D0BB463228CF1F21005BB178 /* MainVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BB461028CF1EAB005BB178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BB461928CF1EAB005BB178 /* IslomTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BB461A28CF1EAB005BB178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BB462328CF1EAB005BB178 /* IslomUITests.swift in Sources */,
+				D0BB462528CF1EAB005BB178 /* IslomUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0BB461628CF1EAB005BB178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0BB45FD28CF1EAA005BB178 /* Islom */;
+			targetProxy = D0BB461528CF1EAB005BB178 /* PBXContainerItemProxy */;
+		};
+		D0BB462028CF1EAB005BB178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0BB45FD28CF1EAA005BB178 /* Islom */;
+			targetProxy = D0BB461F28CF1EAB005BB178 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0BB460C28CF1EAB005BB178 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0BB460D28CF1EAB005BB178 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0BB462628CF1EAB005BB178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0BB462728CF1EAB005BB178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0BB462928CF1EAB005BB178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B1BD085017B74978B7E1CEB /* Pods-Islom.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = URWSH26L7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Islom/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uz.bob.lesson1.Islom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0BB462A28CF1EAB005BB178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4A8AEE1001407599DD88C8A /* Pods-Islom.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = URWSH26L7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Islom/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uz.bob.lesson1.Islom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D0BB462C28CF1EAB005BB178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = URWSH26L7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uz.bob.lesson1.IslomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Islom.app/Islom";
+			};
+			name = Debug;
+		};
+		D0BB462D28CF1EAB005BB178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = URWSH26L7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uz.bob.lesson1.IslomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Islom.app/Islom";
+			};
+			name = Release;
+		};
+		D0BB462F28CF1EAB005BB178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = URWSH26L7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uz.bob.lesson1.IslomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Islom;
+			};
+			name = Debug;
+		};
+		D0BB463028CF1EAB005BB178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = URWSH26L7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uz.bob.lesson1.IslomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Islom;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0BB45F928CF1EAA005BB178 /* Build configuration list for PBXProject "Islom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0BB462628CF1EAB005BB178 /* Debug */,
+				D0BB462728CF1EAB005BB178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0BB462828CF1EAB005BB178 /* Build configuration list for PBXNativeTarget "Islom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0BB462928CF1EAB005BB178 /* Debug */,
+				D0BB462A28CF1EAB005BB178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0BB462B28CF1EAB005BB178 /* Build configuration list for PBXNativeTarget "IslomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0BB462C28CF1EAB005BB178 /* Debug */,
+				D0BB462D28CF1EAB005BB178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0BB462E28CF1EAB005BB178 /* Build configuration list for PBXNativeTarget "IslomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0BB462F28CF1EAB005BB178 /* Debug */,
+				D0BB463028CF1EAB005BB178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0BB45F628CF1EAA005BB178 /* Project object */;
+}
